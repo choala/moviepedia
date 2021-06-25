@@ -29,6 +29,7 @@
 }
 
 .movie__data .movie__title {
+	position: relative;
 	margin-bottom: 0;
 }
 
@@ -43,4 +44,19 @@
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 6;
 	overflow: hidden;
+}
+
+.movie__data button {
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+
+	border: none;
+	border-radius: 3px;
+}
+
+.movie__data button:active {
+	opacity: 70%;
 }

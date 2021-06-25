@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Movie.css"
 
-function Movie({ id, year, title, summary, poster, genres }) {
+function Movie({ id, year, title, summary, poster, genres, ytcode }) {
     return(
         <div className="movies__movie">
             <img src={poster} alt={title} title={title}></img>
@@ -10,7 +10,9 @@ function Movie({ id, year, title, summary, poster, genres }) {
                 <h3 className="movie__title" >{title} ({year})</h3>
                 <p className="genres">{genres}</p>
                 <p className="movie__summary">{summary}</p>
+                <button>Watch Trailer</button>
             </div>
+            
         </div>
     );
 }
@@ -21,7 +23,8 @@ Movie.propTypes = {
     title: PropTypes.string.isRequired,
     summary: PropTypes.string.isRequired,
     poster: PropTypes.string.isRequired,
-    genres: PropTypes.arrayOf(PropTypes.string).isRequired
+    genres: PropTypes.arrayOf(PropTypes.string).isRequired,
+    ytcode: PropTypes.string
 };
 
 export default Movie;
