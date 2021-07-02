@@ -3,7 +3,11 @@ import "./About.css"
 
 function About() {
     return (
-        <span>about page</span>
+        <div className="about"> 
+            <div className="about__container">
+                Welcome to Moviepedia that shows top rated movies with React JS!
+            </div>
+        </div>
     );
 }
 
