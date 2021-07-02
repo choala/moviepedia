@@ -1,0 +1,19 @@
+.movie__detail {
+	position: relative;
+	width: 50%;
+	min-height: 280px;
+	background-color: white;
+	border-radius: 5px;
+	margin-left: 25%;
+	box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+.movie__detail img {
+	margin: 30px;
+}
+
+.movie__detail .detail__data {
+	width: 60%;
+	position: absolute;
+	top: 5%;
+	left: 36%;
+}

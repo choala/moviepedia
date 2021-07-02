@@ -19,7 +19,6 @@ function Movie({ id, year, title, summary, poster, genres, ytcode }) {
                 <p className="genres">{genres}</p>
                 <p className="movie__summary">{summary}</p>
             </div>
-            
         </div>
         </Link>
     );
