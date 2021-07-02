@@ -2,7 +2,7 @@
 	position: relative;
 	display: flex;
 	width: 35%;
-	min-height: 300px;
+	min-height: 280px;
 	background-color: white;
 	margin: 30px 15px;
 	border-radius: 5px;
@@ -14,18 +14,19 @@
 }
 
 .movies__movie img {
-	width: 200px;
+	width: 180px;
 	height: auto;
 	position: absolute;
 	top: -20px;
-	left: 20px;
-	border-radius: 3px;
+	left: 15px;
 	box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .movies__movie .movie__data {
-	width: 410px;
-	margin-left: 36%;
+	width: 60%;
+	position: absolute;
+	top: 5%;
+	left: 35%;
 }
 
 .movie__data .movie__title {
@@ -36,27 +37,12 @@
 .movie__data .genres {
 	margin-top: 0;
 	color: rgba(34, 34, 34, 0.5);
+	word-break: break-all;
 }
 
 .movie__data .movie__summary {
-	width: 410px;
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
 	-webkit-line-clamp: 6;
 	overflow: hidden;
-}
-
-.movie__data button {
-	width: 100px;
-	height: 30px;
-	position: absolute;
-	bottom: 30px;
-	right: 30px;
-
-	border: none;
-	border-radius: 3px;
-}
-
-.movie__data button:active {
-	opacity: 70%;
 }

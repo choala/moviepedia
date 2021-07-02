@@ -10,7 +10,6 @@ function Movie({ id, year, title, summary, poster, genres, ytcode }) {
                 <h3 className="movie__title" >{title} ({year})</h3>
                 <p className="genres">{genres}</p>
                 <p className="movie__summary">{summary}</p>
-                <button>Watch Trailer</button>
             </div>
             
         </div>
