@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import Loading from "../components/Loading";
 import Movie from "../components/Movie";
 
 function Home() {
@@ -17,7 +18,7 @@ function Home() {
     setIsLoading(false);
   }
 
-  if (isLoading) return <h1>Loading...</h1>;
+  if (isLoading) return <Loading />;
 
   return (
     <div>
@@ -25,6 +26,7 @@ function Home() {
         movies.map((movie) => (
           <Movie
             key={movie.id}
+            id={movie.id}
             title={movie.title}
             genres={movie.genres}
             rating={movie.rating}
