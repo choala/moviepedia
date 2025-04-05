@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/moviepedia/static/js/main.6a69b3b9.js",
+    "main.js": "/moviepedia/static/js/main.ae6f4ad4.js",
     "index.html": "/moviepedia/index.html",
-    "main.6a69b3b9.js.map": "/moviepedia/static/js/main.6a69b3b9.js.map"
+    "main.ae6f4ad4.js.map": "/moviepedia/static/js/main.ae6f4ad4.js.map"
   },
   "entrypoints": [
-    "static/js/main.6a69b3b9.js"
+    "static/js/main.ae6f4ad4.js"
   ]
 }
