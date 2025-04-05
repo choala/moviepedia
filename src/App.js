@@ -9,10 +9,10 @@ import Detail from "./routes/Detail";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/moviepedia">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/movie/:id" element={<Detail />} />
+        <Route path="movie/:id" element={<Detail />} />
       </Routes>
     </Router>
   );
